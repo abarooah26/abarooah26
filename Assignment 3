@@ -1,0 +1,51 @@
+1.//var request = new XMLHttpRequest();
+request.open('GET','http://api.countrylayer.com/v2/currency/EUR?access_4f03db10a8d8c0591c13be106730a056);
+request.send();
+request.onload =function () {
+    var data = JSON.parse(this.response); 
+    for(i=0;i<data.length;i++) {
+        console.log(data[i]);
+    }   
+} 
+
+
+2.//<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Check the Console log for response</h1>
+    <script src='apiCallbyCurrency.js'> </script>  
+</body>
+</html>
+
+
+//3.var request = new XMLHttpRequest();
+request.open('GET','http://api.countrylayer.com/v2/language/deu?access_key=4f03db10a8d8c0591c13be106730a056');
+
+request.send();
+request.onload =function () {
+    var data = JSON.parse(this.response); 
+    for(i=0;i<data.length;i++) {
+        console.log(data[i]);
+    }   
+} 
+
+
+4.//<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Check the Console log for response</h1>
+    <script src='apiCallbyLanguage.js'> </script>  
+</body>
+</html>
