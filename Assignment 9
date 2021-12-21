@@ -1,0 +1,370 @@
+Q.1 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>guvi
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit.<div>
+<div>Guvi Geek Network</div>
+</body>
+</html>
+
+Q.2 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    guvi
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div>
+    <div>
+    Guvi Geek Network
+    </div>
+</body>
+</html>
+
+Q.3 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        h1,b{
+            color: rgb(0, 38, 255);
+        }
+        b{
+font-style: italic;
+        }
+        button
+        {
+           background-color:hotpink;
+        }
+    </style>
+</head>
+<body>
+<h1>Contact Us</h1>
+<b>Fill below details to get call back</b><br>
+<hr>
+<form>
+Your Name:<input type="text" required><br>  
+Date Of Birth:<input type="date" required><br>
+Mail ID: <input type="mail" required><br>
+Password:<input type="password" placeholder="Create min.8 Digit Alphanumeric Password" required><br>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>
+
+Q.4  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <h1>List</h1>
+<ul>
+    <li>
+Programming Language
+<ul>
+<li>JavaScript</li>
+<ol type='a'>
+<li>Angular</li>
+<li>React</li>
+<li>Vue.js</li>
+</ol>
+<li>Python</li>
+<ol type='a'>
+<li>Django Framework</li>
+<li>Flask Framework</li>
+</ol>            
+<li>Java</li>
+<ol type='a'>
+<li>Spring</li>
+<li>Maven</li>
+<li>Hibernate</li>
+</ol></li></ul></ul><ul>
+<li>Database</li><ul>
+<li>My SQL</li>
+<li>MongoDB</li>
+<li>Cansandra</li>
+</ul>
+</body>
+</li>
+</body>
+</html>
+
+Q.5 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewTab</title>
+</head>
+<body>
+    <a href="https://google.com" target="_blank">Link Opens In Separate New Tab</a>
+</body>
+</html>
+
+Q.6 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio</title>
+</head>
+<body>
+    <h1>Employee Group</h1>
+    <form>
+        Select :
+        <input type="radio" name="Group">Salaried
+        <input type="radio" name="Group">Own Business
+    </form>
+</body>
+</html>
+
+Q.7  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+        background-color:black;
+        display: inline-block;
+        padding: 100px;
+        place-content: center;
+        }
+        section{
+            padding:3px;
+            background-color: white;
+            border-width: 10px;
+            border-color: black;
+            border-style: double;
+        }
+        h3
+        {
+            background-color: red;
+            color:white;
+        }
+        .line{
+            content:"";
+            display: inline-block;
+            height: 2px;
+            width: 100px;
+            margin-left: 10px;
+            background: #111;
+            vertical-align: super;
+            }
+        .handWritten
+        {
+            font-family: Brush Script MT;
+            text-underline-position:under;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <section>
+<h3>Yes! I want to Subscribe to <span>Mag-O-Zine</span></h3>
+<table>
+    <tr class="handWritten">
+        <td>Joe</td>
+        <td>Schmegeggige</td>   
+    </tr>
+    <tr class="line"></tr>
+    <tr class="line"></tr>
+    <tr>
+        <td>First Name</td>
+        <td>Last Name</td>   
+    </tr>
+    <tr class="handWritten">
+        <td>1001 Washington Street</td>   
+    </tr>
+    <tr>
+        <tr class="line"></tr> 
+    </tr>
+    <tr>
+        <td>Address</td>   
+    </tr>
+    <tr class="handWritten">
+        <td>Anywhere</td>
+        <td>CA</td>  
+        <td>99999</td> 
+    </tr>
+    <tr><tr class="line"></tr>
+    <tr class="line"></tr>
+    <tr class="line"></tr>
+    </tr>
+    <tr>
+        <td>City</td>
+        <td>State</td>  
+        <td>Zip</td> 
+    </tr>
+</table>
+<br>
+    Subscribe for:<input type="radio" Name="Subscribtion">1 year (&#36 19.95)
+    <input type="radio" Name="Subscribtion">2 years (&#36 35.00)<br>
+ <br>Send me more information about:<br>
+    <input type="checkbox" class="a">Computer-Zine<br>
+    <input type='checkbox'>Fishing-Zine<br>
+    <input type="checkbox">Cat-O-Zine<bR>
+    </section>
+</div>
+</body>
+</html>
+
+Q.8 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+<style>
+    p
+    {
+     text-align: center;
+    }
+td,table
+{
+    border:1px solid;
+    border-collapse:collapse;
+    text-align: center;
+}    
+</style>
+</head>
+<body>
+    <p>Health Chart</p>
+ <table>
+     <th>
+         <tr>
+             <td rowspan="2">State of Health</td>
+             <td colspan="2">Fasting Value</td>
+             <td>After Eating</td>
+
+         </tr>
+         <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hours after eating</td>
+         </tr>
+     </th>
+     <tbody>
+         <tr>
+             <td>Healthy</td>
+             <td>70</td>
+             <td>100</td>
+             <td>Less than 140</td>
+         </tr>
+
+         <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+     </tbody>
+ </table>   
+</body>
+</html>
+
+Q.9 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Button:<input type="button" value="Click here!"><br>
+        Checkbox<input type="checkbox " value="Select"><br> 
+        Color:<input type="color" value="#FF69B4"><br> 
+        Date & Time:<input type="datetime-local" value="2021-12-17T12:32"><br> 
+        E-mail:<input type="email" value="V@gmail.com"><br>
+        Attachment:<input type="file" value="zenclass-syllabus.pdf"><br>
+        Hidden:<input type="hidden" value="It's hidden messsage!!"><br>
+        Image upload:<input type="image" value="image1.jpg"><br>
+        Number:<input type="number " value="123456"><br>
+        PAssword:<input type="password " value="***********"><br>
+        Radio:<input type="radio " value="Radio button"><br>
+        Range:<input type="range" min ="5" max="100" step="10" value="95"><br>
+        Reset:<input type=" reset" value="reset button"><br>
+        Search:<input type="search " value='searche here'><br>
+        Submit:<input type=" submit" value="submit button"><br>
+        Phone No.:<input type="tel " value='+91 1112223334'><br>
+        Text:<input type="text " value="Smile please"><br>
+        URL:<input type="url " value="https://www.guvi.in"><br>
+        </form>
+</body>
+</html>
+
+Q.10 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <mark> HTML & CSS is awesome</mark>   
+</body>
+</html>
+
+Q. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Button:<input type="button"><br>
+        Checkbox<input type="checkbox "><br> 
+        Color:<input type="color"><br> 
+        Date & Time:<input type="datetime-local"><br> 
+        E-mail:<input type="email"><br>
+        Attachment:<input type="file "><br>
+        Hidden:<input type="hidden"><br>
+        Image upload:<input type="image "><br>
+        Number:<input type="number "><br>
+        PAssword:<input type="password "><br>
+        Radio:<input type="radio "><br>
+        Range:<input type="range"><br>
+        Reset:<input type=" reset"><br>
+        Search:<input type="search "><br>
+        Submit:<input type=" submit"><br>
+        Phone No.:<input type="tel "><br>
+        Text:<input type="text "><br>
+        URL:<input type="url "><br>
+        </form>
+</body>
+</html>
