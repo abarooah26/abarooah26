@@ -1,0 +1,14 @@
+function timer(count, callback = () => {}) {
+       
+   console.log(count)
+    let counter = setInterval(() => {
+        count = count - 1;
+        if (count < 0) {
+            clearInterval(counter);
+            callback(); 
+            return;
+        }
+        console.log(count)
+    }, 1000);
+}
+timer(15, () => timer(5));
