@@ -1,0 +1,50 @@
+let counterElement = document.querySelector(".counter");
+
+const promiseCheck = new Promise((resolve, reject) => {
+  let Timer = setInterval(() => {
+    var runner = parseInt(document.querySelector(".counter").innerText);
+    counterElement.innerText = runner - 1;
+    if (runner === 0) {
+     clearInterval(Timer);
+     resolve((counterElement.innerText = "Happy  Independence Day"));
+    }else{
+      reject("wht going wrong")
+    }
+  }, 1000);
+});
+console.log(promiseCheck);
+
+
+promiseCheck
+  .then((data) => console.log(data))
+  .catch((errData) => console.log(errData));
+
+index.html
+   <h1 class="counter">10</h1>
+   
+   
+   const timer = document.getElementById("time");
+var startTime = null;
+var endTime = null;
+
+function changeTimer() {
+  if (startTime === null) {
+    startTime = Date.now();
+ 
+    endTime = startTime + 11000;
+    requestAnimationFrame(changeTimer);
+    return;
+  }
+  let nValue = Date.now();
+  let tValue = (nValue < endTime) ? endTime - nValue : 0;
+  let mtValue = tValue / 1000;
+  let mtiValue = parseInt(mtValue);
+  if (mtiValue < 1) {
+    timer.innerText = "Happy Independence Day";
+    return;
+  }
+  timer.innerText = mtiValue;
+  requestAnimationFrame(changeTimer);
+  return;
+}
+changeTimer();
